@@ -21,9 +21,6 @@ class Employee extends person{
         this.jobTitle = jobTitle;
         this.payRate = payRate;
     }
-    getFullName(){
-        return this.firstName + " " + this.lastName; 
-    }
     getGrossPay(hoursWorked){
       return  this.payRate * hoursWorked 
     }
